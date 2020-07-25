@@ -66,13 +66,17 @@ We open-source our lossless video dataset, including 108 videos for training and
 We also provide video compression tools in the above links.
 
 Take 18 test sequences as examples.
-
-1. Unzip the `18_raw.zip` into `18_raw` folder. It contains 18 raw videos. 
-2. Run: `run_1.bat` (Windows) or `run_1.sh` (Ubuntu).
+1. Unzip the `test_18.zip` into `test_18/raw` folder. It contains 18 raw videos.
+2. Generate video config files: `python main_generate_video_cfg.py`.
+   Para: `ubuntu` or `windows` (line 6)
+3. Generate `.bat` or `.sh` files: `python main_generate_bat.py`.
+   Para1: QPs to be encoded, e.g., `[22,27,32,37,42]` (line 7)
+   Para2: num of bat files in parallel (line 8)
+   Para3: `ubuntu` or `windows` (line 9)
+   Para4: `test` or `train` (line 10)
+4. Run `.bat` or `.sh` in `video_compression/bat/test_18`.
 
 Note: On Ubuntu system, first `chmod +x TAppEncoderStatic`.
-
-Note: The video compression may be slow. You can divide the bat commands into a certain number of bat files, and run them in parallel.
 
 ## Test
 
