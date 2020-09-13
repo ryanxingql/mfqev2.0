@@ -51,20 +51,21 @@ Download link: [[DropBox]](https://www.dropbox.com/sh/d04222pwk36n05b/AAC9SJ1Qyp
 
 ### 1.3. Video compression
 
-We also provide video compression tools in the above links.
+We have provided the video compression toolbox in the dataset link.
 
 Take 18 test sequences as examples.
-1. Unzip the `test_18.zip` into `test_18/raw` folder. It contains 18 raw videos.
-2. Generate video config files: `python main_generate_video_cfg.py`.
-   Para: `ubuntu` or `windows` (line 6)
-3. Generate `.bat` or `.sh` files: `python main_generate_bat.py`.
-   Para1: QPs to be encoded, e.g., `[22,27,32,37,42]` (line 7)
-   Para2: num of bat files in parallel (line 8)
-   Para3: `ubuntu` or `windows` (line 9)
-   Para4: `test` or `train` (line 10)
-4. Run all `.bat` or `.sh` in `video_compression/bat/test_18`.
 
-Note: On Ubuntu system, first `chmod +x TAppEncoderStatic`.
+1. Unzip the `test_18.zip` into `test_18/raw` folder. It contains 18 raw videos.
+2. Generate video config files by running `python main_generate_video_cfg.py`. Args:
+   - `system`(line 6): (`ubuntu` | `windows`)
+3. Generate `.bat` or `.sh` files by running `python main_generate_bat.py`. Args:
+   - `QP_list` (line 7): QPs to be encoded, e.g., `[37]`, `[22,27,32,37,42]`.
+   - `num_bat` (line 8): num of bat files. You can run them in parallel.
+   - `system` (line 9): (`ubuntu` | `windows`)
+   - `video_type` (line 10): (`test` | `train`)
+4. Run all `.bat` or `.sh` in `video_compression/bat/test_18`. Note that on Ubuntu system, first `$ chmod +x TAppEncoderStatic`.
+
+The same applies to 108 training sequences.
 
 ## 2. Test
 
