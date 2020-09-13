@@ -30,6 +30,8 @@ Official repository of [MFQE 2.0: A New Approach for Multi-frame Quality Enhance
 
 ![Demo](Fig1.png)
 
+Feel free to contact: ryanxingql@gmail.com.
+
 ## 1. Pre-request
 
 ### 1.1. Environment
@@ -43,7 +45,7 @@ Official repository of [MFQE 2.0: A New Approach for Multi-frame Quality Enhance
 
 We open-source our lossless video dataset, including 108 videos for training and 18 common test sequences (recommended by ITU-T) for test.
 
-[[DropBox]](https://www.dropbox.com/sh/d04222pwk36n05b/AAC9SJ1QypPt79MVUZMosLk5a?dl=0)
+Download link: [[DropBox]](https://www.dropbox.com/sh/d04222pwk36n05b/AAC9SJ1QypPt79MVUZMosLk5a?dl=0)
 
 (Chinese researchers: [[北航网盘-数据库]](https://bhpan.buaa.edu.cn:443/link/1B7824A57299DA36B89FC4D3BC90EF7A))
 
