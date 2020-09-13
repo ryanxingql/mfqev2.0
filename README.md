@@ -1,13 +1,14 @@
 # MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video (TPAMI 2019)
 
 - [MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video (TPAMI 2019)](#mfqe-20-a-new-approach-for-multi-frame-quality-enhancement-on-compressed-video-tpami-2019)
-  - [Paper](#paper)
-  - [Environment](#environment)
-  - [Dataset](#dataset)
-  - [Video compression](#video-compression)
-  - [Test](#test)
-  - [Training](#training)
-  - [Others](#others)
+  - [0. Background](#0-background)
+  - [1. Pre-request](#1-pre-request)
+    - [1.1. Environment](#11-environment)
+    - [1.2. Dataset](#12-dataset)
+    - [1.3. Video compression](#13-video-compression)
+  - [2. Test](#2-test)
+  - [3. Training](#3-training)
+  - [4. Q&A](#4-qa)
     - [PQF enhancement](#pqf-enhancement)
     - [PQF detection](#pqf-detection)
     - [Approximate QP label (Optional)](#approximate-qp-label-optional)
@@ -16,52 +17,37 @@
     - [OOM](#oom)
     - [Scene switch](#scene-switch)
     - [Black frame](#black-frame)
-    - [License](#license)
+  - [5. License & Citation](#5-license--citation)
+  - [6. See more](#6-see-more)
 
-**Highlights**
+## 0. Background
+
+Official repository of [MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video](http://arxiv.org/abs/1902.09707), TPAMI 2019.
+
 - The first **multi-frame** quality enhancement approach for compressed videos.
 - The first to consider and utilize the **quality fluctuation** feature of compressed videos.
 - Enhance low-quality frames using **neighboring high-quality** frames.
 
 ![Demo](Fig1.png)
 
-## Paper
+## 1. Pre-request
 
-[[arXiv]](http://arxiv.org/abs/1902.09707) [[IEEE]](https://ieeexplore.ieee.org/document/8855019)
-
-If you find this work helpful, you may cite (BibTeX):
-```
-@ARTICLE{MFQEv2,
-author={Z. {Guan} and Q. {Xing} and M. {Xu} and R. {Yang} and T. {Liu} and Z. {Wang}},
-journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-title={{MFQE} 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video},
-year={2019},
-volume={},
-number={},
-pages={1-1},
-keywords={Quality enhancement;compressed video;deep learning},
-doi={10.1109/TPAMI.2019.2944806},
-ISSN={},
-month={},
-}
-```
-
-## Environment
+### 1.1. Environment
 
 - Python 3.5
 - TensorFlow 1.8 (1.13/14 is ok but with warnings)
 - TFLearn
 - Scikit-image (for calculating PSNR and SSIM)
 
-## Dataset
+### 1.2. Dataset
 
 We open-source our lossless video dataset, including 108 videos for training and 18 common test sequences (recommended by ITU-T) for test.
 
 [[DropBox]](https://www.dropbox.com/sh/d04222pwk36n05b/AAC9SJ1QypPt79MVUZMosLk5a?dl=0)
 
-(Chinese researchers: [[百度网盘]](https://pan.baidu.com/s/1WL1WxFeRtwOh3HevPqeuTw), 提取码: xuia)
+(Chinese researchers: [[北航网盘-数据库]](https://bhpan.buaa.edu.cn:443/link/1B7824A57299DA36B89FC4D3BC90EF7A))
 
-## Video compression
+### 1.3. Video compression
 
 We also provide video compression tools in the above links.
 
@@ -74,13 +60,13 @@ Take 18 test sequences as examples.
    Para2: num of bat files in parallel (line 8)
    Para3: `ubuntu` or `windows` (line 9)
    Para4: `test` or `train` (line 10)
-4. Run `.bat` or `.sh` in `video_compression/bat/test_18`.
+4. Run all `.bat` or `.sh` in `video_compression/bat/test_18`.
 
 Note: On Ubuntu system, first `chmod +x TAppEncoderStatic`.
 
-## Test
+## 2. Test
 
-1. Download the `data` and `model` folders at [Google Drive](https://drive.google.com/drive/folders/1L-d4ptHZWV_jLl6KGvY81CochKcoY4wj?usp=sharing) (Chinese researchers: [北航网盘](https://bhpan.buaa.edu.cn:443/link/0EBF3709E3168E9A78206391258715A3)).
+1. Download the `data` and `model` folders at [[Google Drive]](https://drive.google.com/drive/folders/1L-d4ptHZWV_jLl6KGvY81CochKcoY4wj?usp=sharing) (Chinese researchers: [[北航网盘-测试数据]](https://bhpan.buaa.edu.cn:443/link/455F653B2BDCF062B71A6B54C7801E5B)).
 2. Put your test videos at `data/test/raw` and `data/test/compressed`. All videos in `data/test/compressed` will be enhanced one by one.
 3. Change information in `main_test.py`, e.g., QP and GPU index.
 4. Run `main_test.py`.
@@ -91,7 +77,7 @@ The average improved PSNR and improved SSIM results will be recorded in `out/rec
 
 ![result](result_tab.png)
 
-## Training
+## 3. Training
 
 We release our data processing and training code.
 
@@ -114,7 +100,7 @@ You can also train your own model by fine-tuning the open-source pre-trained mod
 
 Unfortunately, the above training codes are written in different times and devices. To run these code properly, you may have to change some paths.
 
-## Others
+## 4. Q&A
 
 ### PQF enhancement
 
@@ -195,6 +181,34 @@ Enhancing black frames or other "plane" frames may lead to `PSNR=inf` result. Ou
 1. If the middle frame is plane, skip it (do not enhance it). 
 2. If the pre- or sub-PQF is plane, simply let the middle frame itself to be the pre-PQF and sub-PQF for enhancement.
 
-### License
+## 5. License & Citation
 
 You can **use, redistribute, and adapt** the material for **non-commercial purposes**, as long as you give appropriate credit by **citing our paper** and **indicating any changes** that you've made.
+
+```tex
+@ARTICLE{MFQEv2,
+author={Z. {Guan} and Q. {Xing} and M. {Xu} and R. {Yang} and T. {Liu} and Z. {Wang}},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={{MFQE} 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video},
+year={2019},
+volume={},
+number={},
+pages={1-1},
+keywords={Quality enhancement;compressed video;deep learning},
+doi={10.1109/TPAMI.2019.2944806},
+ISSN={},
+month={},
+}
+```
+
+## 6. See more
+
+- [PyTorch implementation of STDF (AAAI 2020)](https://github.com/RyanXingQL/STDF-PyTorch)
+  - A **simple** yet **effective** video quality enhancement network.
+  - Adopt **feature alignment** by multi-frame **deformable convolutions**, instead of motion estimation and motion compensation.
+
+- [RBQE (ECCV 2020)](https://github.com/RyanXingQL/RBQE)
+  - A **single blind** enhancement model for HEVC/JPEG-compressed images with a **wide range** of Quantization Parameters (QPs) or Quality Factors (QFs).
+  - A **multi-output dynamic** network with **early-exit** mechanism for easy input.
+  - A **Tchebichef-moments** based **NR-IQA** approach for early-exit decision. This IQA approach is highly interpretable and sensitive to blocking energy detection.
+
