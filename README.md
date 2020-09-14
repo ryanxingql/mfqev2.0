@@ -47,7 +47,7 @@ We open-source our lossless video dataset, including 108 videos for training and
 
 Download link: [[DropBox]](https://www.dropbox.com/sh/d04222pwk36n05b/AAC9SJ1QypPt79MVUZMosLk5a?dl=0)
 
-(Chinese researchers: [[北航网盘-数据库]](https://bhpan.buaa.edu.cn:443/link/1B7824A57299DA36B89FC4D3BC90EF7A))
+(For Chinese researchers: [[百度网盘]](https://pan.baidu.com/s/1oBZf75bFGRanLmQQLAg4Ew), 提取码mfqe)
 
 ### 1.3. Video compression
 
@@ -69,10 +69,10 @@ The same applies to 108 training sequences.
 
 ## 2. Test
 
-1. Download the `data` and `model` folders at [[Google Drive]](https://drive.google.com/drive/folders/1L-d4ptHZWV_jLl6KGvY81CochKcoY4wj?usp=sharing) (Chinese researchers: [[北航网盘-测试数据]](https://bhpan.buaa.edu.cn:443/link/455F653B2BDCF062B71A6B54C7801E5B)).
-2. Put your test videos at `data/test/raw` and `data/test/compressed`. All videos in `data/test/compressed` will be enhanced one by one.
-3. Change information in `main_test.py`, e.g., QP and GPU index.
-4. Run `main_test.py`.
+1. Download the `data` and `model` folders at [[Google Drive]](https://drive.google.com/drive/folders/1L-d4ptHZWV_jLl6KGvY81CochKcoY4wj?usp=sharing) (For Chinese researchers: [[百度网盘]](https://pan.baidu.com/s/1gE-VnMTgRW-57QiUwVNlVQ), 提取码mfqe).
+1. Put your test videos at `data/test/raw` and `data/test/compressed`. All videos in `data/test/compressed` will be enhanced one by one.
+2. Change information in `main_test.py`, e.g., QP and GPU index.
+3. Run `main_test.py`.
 
 Note: Enhancing sequences *Traffic* and *PeopleOnStreet* may lead to OOM. See [OOM](#oom).
 
