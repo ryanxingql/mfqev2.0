@@ -5,7 +5,6 @@
   - [1. Pre-request](#1-pre-request)
     - [1.1. Environment](#11-environment)
     - [1.2. Dataset](#12-dataset)
-    - [1.3. Video compression](#13-video-compression)
   - [2. Test](#2-test)
   - [3. Training](#3-training)
   - [4. Q&A](#4-qa)
@@ -49,23 +48,30 @@ Download link: [[DropBox]](https://www.dropbox.com/sh/d04222pwk36n05b/AAC9SJ1Qyp
 
 (For Chinese researchers: [[百度网盘]](https://pan.baidu.com/s/1oBZf75bFGRanLmQQLAg4Ew), 提取码mfqe)
 
-### 1.3. Video compression
+We have also provided the video compression toolbox in the dataset link.
 
-We have provided the video compression toolbox in the dataset link.
+```bash
+$ cd video_compression/
+$ chmod +x TAppEncoderStatic
+$ python unzip_n_compress.py
+```
 
-Take 18 test sequences as examples.
+Finally, we will get:
 
-1. Unzip the `test_18.zip` into `test_18/raw` folder. It contains 18 raw videos.
-2. Generate video config files by running `python main_generate_video_cfg.py`. Args:
-   - `system`(line 6): (`ubuntu` | `windows`)
-3. Generate `.bat` or `.sh` files by running `python main_generate_bat.py`. Args:
-   - `QP_list` (line 7): QPs to be encoded, e.g., `[37]`, `[22,27,32,37,42]`.
-   - `num_bat` (line 8): num of bat files. You can run them in parallel.
-   - `system` (line 9): (`ubuntu` | `windows`)
-   - `video_type` (line 10): (`test` | `train`)
-4. Run all `.bat` or `.sh` in `video_compression/bat/test_18`. Note that on Ubuntu system, first `$ chmod +x TAppEncoderStatic`.
-
-The same applies to 108 training sequences.
+```tex
+MFQEv2_dataset/
+├── train_108/
+│   ├── raw/
+│   └── HM16.5_LDP/
+│       └── QP37/
+├── test_18/
+│   ├── raw/
+│   └── HM16.5_LDP/
+│       └── QP37/
+├── video_compression/
+│   └── ...
+└── README.md
+```
 
 ## 2. Test
 
