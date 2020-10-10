@@ -199,18 +199,15 @@ Enhancing black frames or other "plane" frames may lead to `PSNR=inf` result. Ou
 You can **use, redistribute, and adapt** the material for **non-commercial purposes**, as long as you give appropriate credit by **citing our paper** and **indicating any changes** that you've made.
 
 ```tex
-@ARTICLE{MFQEv2,
-author={Z. {Guan} and Q. {Xing} and M. {Xu} and R. {Yang} and T. {Liu} and Z. {Wang}},
-journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-title={{MFQE} 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video},
-year={2019},
-volume={},
-number={},
-pages={1-1},
-keywords={Quality enhancement;compressed video;deep learning},
-doi={10.1109/TPAMI.2019.2944806},
-ISSN={},
-month={},
+@article{MFQEv2,
+	doi = {10.1109/tpami.2019.2944806},
+	url = {https://doi.org/10.1109%2Ftpami.2019.2944806},
+	year = 2019,
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	pages = {1--1},
+	author = {Zhenyu Guan and Qunliang Xing and Mai Xu and Ren Yang and Tie Liu and Zulin Wang},
+	title = {{MFQE} 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video},
+	journal = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence}
 }
 ```
 
