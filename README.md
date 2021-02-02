@@ -1,6 +1,6 @@
-# MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video (TPAMI 2019)
+# *MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video* (TPAMI 2019)
 
-- [MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video (TPAMI 2019)](#mfqe-20-a-new-approach-for-multi-frame-quality-enhancement-on-compressed-video-tpami-2019)
+- [*MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video* (TPAMI 2019)](#mfqe-20-a-new-approach-for-multi-frame-quality-enhancement-on-compressed-video-tpami-2019)
   - [0. Background](#0-background)
   - [1. Pre-request](#1-pre-request)
     - [1.1. Environment](#11-environment)
@@ -13,7 +13,7 @@
 
 ## 0. Background
 
-Official repository of [MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video](http://arxiv.org/abs/1902.09707), TPAMI 2019.
+Official repository of [*MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video*](http://arxiv.org/abs/1902.09707), TPAMI 2019.
 
 - The first **multi-frame** quality enhancement approach for compressed videos.
 - The first to consider and utilize the **quality fluctuation** feature of compressed videos.
