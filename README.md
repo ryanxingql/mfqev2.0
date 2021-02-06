@@ -232,17 +232,18 @@ Enhancing black frames or other "plane" frames (all pixel values are the same) m
 You can **use, redistribute, and adapt** the material for **non-commercial purposes**, as long as you give appropriate credit by **citing our paper** and **indicating any changes** that you've made.
 
 ```tex
-@article{MFQEv2,
-  doi = {10.1109/tpami.2019.2944806},
-  url = {https://doi.org/10.1109%2Ftpami.2019.2944806},
-  year = 2021,
-  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
-  pages = {949--963},
-  volume = {43},
-  number = {3},
-  author = {Zhenyu Guan and Qunliang Xing and Mai Xu and Ren Yang and Tie Liu and Zulin Wang},
-  title = {{MFQE} 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video},
-  journal = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence}
+@article{Guan_2021,
+	doi = {10.1109/tpami.2019.2944806},
+	url = {https://doi.org/10.1109%2Ftpami.2019.2944806},
+	year = 2021,
+	month = {mar},
+	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+	volume = {43},
+	number = {3},
+	pages = {949--963},
+	author = {Zhenyu Guan and Qunliang Xing and Mai Xu and Ren Yang and Tie Liu and Zulin Wang},
+	title = {{MFQE} 2.0: A New Approach for Multi-Frame Quality Enhancement on Compressed Video},
+	journal = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence}
 }
 ```
 
