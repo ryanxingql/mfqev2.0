@@ -233,14 +233,16 @@ You can **use, redistribute, and adapt** the material for **non-commercial purpo
 
 ```tex
 @article{MFQEv2,
-	doi = {10.1109/tpami.2019.2944806},
-	url = {https://doi.org/10.1109%2Ftpami.2019.2944806},
-	year = 2019,
-	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
-	pages = {1--1},
-	author = {Zhenyu Guan and Qunliang Xing and Mai Xu and Ren Yang and Tie Liu and Zulin Wang},
-	title = {{MFQE} 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video},
-	journal = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence}
+  doi = {10.1109/tpami.2019.2944806},
+  url = {https://doi.org/10.1109%2Ftpami.2019.2944806},
+  year = 2021,
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  pages = {949--963},
+  volume = {43},
+  number = {3},
+  author = {Zhenyu Guan and Qunliang Xing and Mai Xu and Ren Yang and Tie Liu and Zulin Wang},
+  title = {{MFQE} 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video},
+  journal = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence}
 }
 ```
 
