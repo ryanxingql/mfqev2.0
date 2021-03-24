@@ -76,7 +76,7 @@ MFQEv2_dataset/
 
 ## 2. Test
 
-1. Download the `data` and `model` folders at [[Google Drive]](https://drive.google.com/drive/folders/1L-d4ptHZWV_jLl6KGvY81CochKcoY4wj?usp=sharing) [[百度网盘 (mfqe)]](https://pan.baidu.com/s/1gE-VnMTgRW-57QiUwVNlVQ).
+1. Download the `data` and `model` folders at [[Releases]](https://github.com/RyanXingQL/MFQEv2.0/releases/) or [[百度网盘 (mfqe)]](https://pan.baidu.com/s/1gE-VnMTgRW-57QiUwVNlVQ).
 2. Put your test videos at `data/test/raw` and `data/test/compressed`. All videos in `data/test/compressed` will be enhanced one by one.
 3. Change information in `main_test.py`, e.g., QP and GPU index.
 4. Run `main_test.py`.
