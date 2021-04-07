@@ -34,45 +34,7 @@ Feel free to contact: <ryanxingql@gmail.com>.
 
 ### 1.2. Dataset
 
-We open-source our lossless video dataset, including 108 videos for training and 18 common test sequences (recommended by ITU-T) for test.
-
-Download link: [[DropBox]](https://www.dropbox.com/sh/d04222pwk36n05b/AAC9SJ1QypPt79MVUZMosLk5a?dl=0) [[百度网盘 (mfqe)]](https://pan.baidu.com/s/1oBZf75bFGRanLmQQLAg4Ew)
-
-<details>
-<summary><b>How to compress videos</b></summary>
-<p>
-
-We have also provided the video compression toolbox in the dataset link.
-
-First edit `option.yml` in `video_compression/`, i.e., `dir_dataset` and `qp`.
-
-Then run:
-
-```bash
-cd video_compression/
-chmod +x TAppEncoderStatic
-python unzip_n_compress.py
-```
-
-Finally, we will get:
-
-```tex
-MFQEv2_dataset/
-├── train_108/
-│   ├── raw/
-│   └── HM16.5_LDP/
-│       └── QP37/
-├── test_18/
-│   ├── raw/
-│   └── HM16.5_LDP/
-│       └── QP37/
-├── video_compression/
-│   └── ...
-└── README.md
-```
-
-</p>
-</details>
+Please refer to [this repository](https://gist.github.com/RyanXingQL/db0b67abb771f02ad9d6c6536eec971e).
 
 ## 2. Test
 
