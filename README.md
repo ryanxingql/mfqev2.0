@@ -203,7 +203,7 @@ Enhancing black frames or other "plane" frames (all pixel values are the same) m
 You can **use, redistribute, and adapt** the material for **non-commercial purposes**, as long as you give appropriate credit by **citing our paper** and **indicating any changes** that you've made.
 
 ```tex
-@article{Guan_2021,
+@article{MFQEv2_xing_2021,
 	doi = {10.1109/tpami.2019.2944806},
 	url = {https://doi.org/10.1109%2Ftpami.2019.2944806},
 	year = 2021,
