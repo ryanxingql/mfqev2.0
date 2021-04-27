@@ -11,6 +11,7 @@
   - [5. License & Citation](#5-license--citation)
   - [6. See more](#6-see-more)
 
+**Update** (21/4/27): We open-source all compared approaches at [PowerQE](https://github.com/RyanXingQL/PowerQE). MFQE will also be re-implemented and open-sourced soon.
 ## 0. Background
 
 Official repository of [*MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video*](http://arxiv.org/abs/1902.09707), TPAMI 2019. [[速览 (中文)]](https://github.com/RyanXingQL/Blog/blob/main/posts/mfqev2.md)
