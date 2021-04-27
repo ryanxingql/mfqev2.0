@@ -9,9 +9,9 @@
   - [3. Training](#3-training)
   - [4. Q&A](#4-qa)
   - [5. License & Citation](#5-license--citation)
-  - [6. See more](#6-see-more)
 
-**Update** (21/4/27): We open-source all compared approaches at [PowerQE](https://github.com/RyanXingQL/PowerQE). MFQE will also be re-implemented and open-sourced soon.
+:rocket: **Update** (21/4/27): We open-source all compared approaches at [PowerQE](https://github.com/RyanXingQL/PowerQE). MFQE will also be re-implemented and open-sourced soon.
+
 ## 0. Background
 
 Official repository of [*MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video*](http://arxiv.org/abs/1902.09707), TPAMI 2019. [[速览 (中文)]](https://github.com/RyanXingQL/Blog/blob/main/posts/mfqev2.md)
@@ -218,14 +218,3 @@ You can **use, redistribute, and adapt** the material for **non-commercial purpo
 	journal = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence}
 }
 ```
-
-## 6. See more
-
-- [PyTorch implementation of STDF (AAAI 2020)](https://github.com/RyanXingQL/STDF-PyTorch)
-  - A **simple** and **effective** video quality enhancement network.
-  - Adopt **feature alignment** by multi-frame **deformable convolutions**, instead of motion estimation and motion compensation.
-
-- [RBQE (ECCV 2020)](https://github.com/RyanXingQL/RBQE)
-  - A **single blind** enhancement model for HEVC/JPEG-compressed images with a **wide range** of Quantization Parameters (QPs) or Quality Factors (QFs).
-  - A **multi-output dynamic** network with **early-exit** mechanism for easy input.
-  - A **Tchebichef-moments** based **NR-IQA** approach for early-exit decision. This IQA approach is highly interpretable and sensitive to blocking energy detection.
