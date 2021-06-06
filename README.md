@@ -35,7 +35,7 @@ Feel free to contact: <ryanxingql@gmail.com>.
 
 ### 1.2. Dataset
 
-Please refer to [this repository](https://gist.github.com/RyanXingQL/db0b67abb771f02ad9d6c6536eec971e).
+Please check [here](https://github.com/RyanXingQL/MFQEv2.0/wiki/MFQEv2-Dataset).
 
 ## 2. Test
 
