@@ -1,15 +1,5 @@
 # *MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video* (TPAMI 2019)
 
-- [*MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video* (TPAMI 2019)](#mfqe-20-a-new-approach-for-multi-frame-quality-enhancement-on-compressed-video-tpami-2019)
-  - [0. Background](#0-background)
-  - [1. Pre-request](#1-pre-request)
-    - [1.1. Environment](#11-environment)
-    - [1.2. Dataset](#12-dataset)
-  - [2. Test](#2-test)
-  - [3. Training](#3-training)
-  - [4. Q&A](#4-qa)
-  - [5. License & Citation](#5-license--citation)
-
 :rocket: **Update** (21/4/27): We open-source all compared approaches at [PowerQE](https://github.com/RyanXingQL/PowerQE). MFQE will also be re-implemented and open-sourced soon.
 
 ## 0. Background
