@@ -150,7 +150,7 @@ We adopt Apache License v2.0.
 If you find this repository helpful, you may cite:
 
 ```tex
-@article{MFQEv2_xing_2021,
+@article{2019xing,
 	doi = {10.1109/tpami.2019.2944806},
 	url = {https://doi.org/10.1109%2Ftpami.2019.2944806},
 	year = 2021,
