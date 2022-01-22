@@ -1,10 +1,10 @@
 # *MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video* (TPAMI 2019)
 
-:rocket: **Update** (21/4/27): We open-source all compared approaches at [PowerQE](https://github.com/RyanXingQL/PowerQE).
+:rocket: **Update** (21/4/27): We open-source all compared approaches at [PowerQE](https://github.com/ryanxingql/powerqe).
 
 ## 0. Background
 
-Official repository of [*MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video*](http://arxiv.org/abs/1902.09707), TPAMI 2019. [[速览]](https://github.com/RyanXingQL/Blog/blob/main/posts/mfqev2.md)
+Official repository of [*MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video*](http://arxiv.org/abs/1902.09707), TPAMI 2019. [[速览]](https://github.com/ryanxingql/blog/blob/main/posts/mfqev2.md)
 
 - The first **multi-frame** quality enhancement approach for compressed videos.
 - The first to consider and utilize the **quality fluctuation** feature of compressed videos.
@@ -25,11 +25,11 @@ Feel free to contact: <ryanxingql@gmail.com>.
 
 ### 1.2. Dataset
 
-Please check [here](https://github.com/RyanXingQL/MFQEv2.0/wiki/MFQEv2-Dataset).
+Please check [here](https://github.com/ryanxingql/mfqev2.0/wiki/MFQEv2-Dataset).
 
 ## 2. Test
 
-1. Download the `data` and `model` folders at [[Releases]](https://github.com/RyanXingQL/MFQEv2.0/releases/) or [[百度网盘 (mfqe)]](https://pan.baidu.com/s/1gE-VnMTgRW-57QiUwVNlVQ).
+1. Download the `data` and `model` folders at [[Releases]](https://github.com/ryanxingql/mfqev2.0/releases/) or [[百度网盘 (mfqe)]](https://pan.baidu.com/s/1gE-VnMTgRW-57QiUwVNlVQ).
 2. Put your test videos at `data/test/raw` and `data/test/compressed`. All videos in `data/test/compressed` will be enhanced one by one.
 3. Change information in `main_test.py`, e.g., QP and GPU index.
 4. Run `main_test.py`.
@@ -65,7 +65,7 @@ You can also train your own model by fine-tuning the open-source pre-trained mod
 
 Unfortunately, the above training codes are written in different times and devices. To run these code properly, you may have to change some paths.
 
-I'm sorry about the coarse training code of my first scientific work MFQEv2. If you're finding a more robust work for practical use, see my implementation of [STDF (AAAI 2020)](https://github.com/RyanXingQL/STDF-PyTorch).
+I'm sorry about the coarse training code of my first scientific work MFQEv2. If you're finding a more robust work for practical use, see my implementation of [STDF (AAAI 2020)](https://github.com/ryanxingql/stdf-pytorch).
 
 ## 4. Q&A
 
