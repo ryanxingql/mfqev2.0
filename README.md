@@ -151,16 +151,25 @@ If you find this repository helpful, you may cite:
 
 ```tex
 @article{2019xing,
-	doi = {10.1109/tpami.2019.2944806},
-	url = {https://doi.org/10.1109%2Ftpami.2019.2944806},
-	year = 2021,
-	month = {mar},
-	publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
-	volume = {43},
-	number = {3},
-	pages = {949--963},
-	author = {Zhenyu Guan and Qunliang Xing and Mai Xu and Ren Yang and Tie Liu and Zulin Wang},
-	title = {{MFQE} 2.0: A New Approach for Multi-Frame Quality Enhancement on Compressed Video},
-	journal = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence}
+  doi = {10.1109/tpami.2019.2944806},
+  url = {https://doi.org/10.1109%2Ftpami.2019.2944806},
+  year = 2021,
+  month = {mar},
+  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
+  volume = {43},
+  number = {3},
+  pages = {949--963},
+  author = {Zhenyu Guan and Qunliang Xing and Mai Xu and Ren Yang and Tie Liu and Zulin Wang},
+  title = {{MFQE} 2.0: A New Approach for Multi-Frame Quality Enhancement on Compressed Video},
+  journal = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence}
+}
+
+@software{2020xing_mfqev2,
+  author = {Xing, Qunliang},
+  month = {7},
+  title = {{PyTorch implementation of MFQEv2}},
+  url = {https://github.com/ryanxingql/mfqev2.0},
+  version = {1.0.0},
+  year = {2020}
 }
 ```
