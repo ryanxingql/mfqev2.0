@@ -1,5 +1,7 @@
 # *MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video* (TPAMI 2019)
 
+:rocket: **Update** (22/4/24): We re-implement MFQEv2 based on MMEditing at [basicvqe-mmediting](https://github.com/ryanxingql/basicvqe-mmediting).
+
 :rocket: **Update** (21/4/27): We open-source all compared approaches at [PowerQE](https://github.com/ryanxingql/powerqe).
 
 ## 0. Background
