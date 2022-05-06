@@ -67,7 +67,7 @@ You can also train your own model by fine-tuning the open-source pre-trained mod
 
 Unfortunately, the above training codes are written in different times and devices. To run these code properly, you may have to change some paths.
 
-I'm sorry about the coarse training code of my first scientific work MFQEv2. If you're finding a more robust work for practical use, see my implementation of [STDF (AAAI 2020)](https://github.com/ryanxingql/stdf-pytorch).
+I'm sorry about the coarse training code of my first scientific work MFQEv2. If you're finding a more robust work for practical use, see my re-implementation of MFQEv2 at [PowerVQE](https://github.com/ryanxingql/powervqe) or [STDF (AAAI 2020)](https://github.com/ryanxingql/stdf-pytorch).
 
 ## 4. Q&A
 
