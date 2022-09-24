@@ -6,7 +6,7 @@
 
 ## 0. Background
 
-Official repository of [*MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video*](http://arxiv.org/abs/1902.09707), TPAMI 2019. [[速览]](https://github.com/ryanxingql/blog/blob/main/posts/mfqev2.md)
+Official repository of [*MFQE 2.0: A New Approach for Multi-frame Quality Enhancement on Compressed Video*](http://arxiv.org/abs/1902.09707), TPAMI 2019. [[速览]](https://github.com/ryanxingql/mfqev2.0/blob/master/blog_zh.md)
 
 - The first **multi-frame** quality enhancement approach for compressed videos.
 - The first to consider and utilize the **quality fluctuation** feature of compressed videos.
@@ -164,14 +164,5 @@ If you find this repository helpful, you may cite:
   author = {Zhenyu Guan and Qunliang Xing and Mai Xu and Ren Yang and Tie Liu and Zulin Wang},
   title = {{MFQE} 2.0: A New Approach for Multi-Frame Quality Enhancement on Compressed Video},
   journal = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence}
-}
-
-@software{2020xing_mfqev2,
-  author = {Xing, Qunliang},
-  month = {7},
-  title = {{PyTorch implementation of MFQEv2}},
-  url = {https://github.com/ryanxingql/mfqev2.0},
-  version = {1.0.0},
-  year = {2020}
 }
 ```
