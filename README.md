@@ -144,25 +144,3 @@ Enhancing black frames or other "plane" frames (all pixel values are the same) m
 
 1. If the middle frame is plane, skip it (do not enhance it).
 2. If the pre- or sub-PQF is plane, simply let the middle frame itself to be its pre-PQF and sub-PQF for enhancement.
-
-## 5. License
-
-We adopt Apache License v2.0.
-
-If you find this repository helpful, you may cite:
-
-```tex
-@article{2019xing,
-  doi = {10.1109/tpami.2019.2944806},
-  url = {https://doi.org/10.1109%2Ftpami.2019.2944806},
-  year = 2021,
-  month = {mar},
-  publisher = {Institute of Electrical and Electronics Engineers ({IEEE})},
-  volume = {43},
-  number = {3},
-  pages = {949--963},
-  author = {Zhenyu Guan and Qunliang Xing and Mai Xu and Ren Yang and Tie Liu and Zulin Wang},
-  title = {{MFQE} 2.0: A New Approach for Multi-Frame Quality Enhancement on Compressed Video},
-  journal = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence}
-}
-```
